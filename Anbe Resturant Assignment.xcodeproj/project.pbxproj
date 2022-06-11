@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28413DD928534D10003CF1F9 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28413DD828534D10003CF1F9 /* SummaryView.swift */; };
+		28413DDB28535ACD003CF1F9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28413DDA28535ACD003CF1F9 /* ListView.swift */; };
+		28413DDD28535AE0003CF1F9 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28413DDC28535AE0003CF1F9 /* ListModel.swift */; };
+		288C7A0C28508930004E2960 /* Anbe_Resturant_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C7A0B28508930004E2960 /* Anbe_Resturant_AssignmentApp.swift */; };
+		288C7A0E28508930004E2960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C7A0D28508930004E2960 /* ContentView.swift */; };
+		288C7A1028508933004E2960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288C7A0F28508933004E2960 /* Assets.xcassets */; };
+		288C7A1328508933004E2960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288C7A1228508933004E2960 /* Preview Assets.xcassets */; };
+		288C7A1D28508933004E2960 /* Anbe_Resturant_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C7A1C28508933004E2960 /* Anbe_Resturant_AssignmentTests.swift */; };
+		288C7A2728508933004E2960 /* Anbe_Resturant_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C7A2628508933004E2960 /* Anbe_Resturant_AssignmentUITests.swift */; };
+		288C7A2928508933004E2960 /* Anbe_Resturant_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288C7A2828508933004E2960 /* Anbe_Resturant_AssignmentUITestsLaunchTests.swift */; };
+		288FF2A02853B0A600F5E9BB /* FoodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288FF29F2853B0A600F5E9BB /* FoodListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		288C7A1928508933004E2960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288C7A0028508930004E2960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288C7A0728508930004E2960;
+			remoteInfo = "Anbe Resturant Assignment";
+		};
+		288C7A2328508933004E2960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288C7A0028508930004E2960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288C7A0728508930004E2960;
+			remoteInfo = "Anbe Resturant Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28413DD828534D10003CF1F9 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		28413DDA28535ACD003CF1F9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		28413DDC28535AE0003CF1F9 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		288C7A0828508930004E2960 /* Anbe Resturant Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anbe Resturant Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288C7A0B28508930004E2960 /* Anbe_Resturant_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anbe_Resturant_AssignmentApp.swift; sourceTree = "<group>"; };
+		288C7A0D28508930004E2960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		288C7A0F28508933004E2960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288C7A1228508933004E2960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		288C7A1828508933004E2960 /* Anbe Resturant AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anbe Resturant AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288C7A1C28508933004E2960 /* Anbe_Resturant_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anbe_Resturant_AssignmentTests.swift; sourceTree = "<group>"; };
+		288C7A2228508933004E2960 /* Anbe Resturant AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anbe Resturant AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		288C7A2628508933004E2960 /* Anbe_Resturant_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anbe_Resturant_AssignmentUITests.swift; sourceTree = "<group>"; };
+		288C7A2828508933004E2960 /* Anbe_Resturant_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anbe_Resturant_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		288FF29F2853B0A600F5E9BB /* FoodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288C7A0528508930004E2960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288C7A1528508933004E2960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288C7A1F28508933004E2960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288C79FF28508930004E2960 = {
+			isa = PBXGroup;
+			children = (
+				288C7A0A28508930004E2960 /* Anbe Resturant Assignment */,
+				288C7A1B28508933004E2960 /* Anbe Resturant AssignmentTests */,
+				288C7A2528508933004E2960 /* Anbe Resturant AssignmentUITests */,
+				288C7A0928508930004E2960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288C7A0928508930004E2960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288C7A0828508930004E2960 /* Anbe Resturant Assignment.app */,
+				288C7A1828508933004E2960 /* Anbe Resturant AssignmentTests.xctest */,
+				288C7A2228508933004E2960 /* Anbe Resturant AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288C7A0A28508930004E2960 /* Anbe Resturant Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				288C7A3828508ABC004E2960 /* Network */,
+				288C7A3728508AB5004E2960 /* Model */,
+				288C7A3628508AA9004E2960 /* ViewModels */,
+				288C7A3528508A9F004E2960 /* Views */,
+				288C7A0B28508930004E2960 /* Anbe_Resturant_AssignmentApp.swift */,
+				288C7A0F28508933004E2960 /* Assets.xcassets */,
+				288C7A1128508933004E2960 /* Preview Content */,
+			);
+			path = "Anbe Resturant Assignment";
+			sourceTree = "<group>";
+		};
+		288C7A1128508933004E2960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				288C7A1228508933004E2960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		288C7A1B28508933004E2960 /* Anbe Resturant AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				288C7A1C28508933004E2960 /* Anbe_Resturant_AssignmentTests.swift */,
+			);
+			path = "Anbe Resturant AssignmentTests";
+			sourceTree = "<group>";
+		};
+		288C7A2528508933004E2960 /* Anbe Resturant AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				288C7A2628508933004E2960 /* Anbe_Resturant_AssignmentUITests.swift */,
+				288C7A2828508933004E2960 /* Anbe_Resturant_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "Anbe Resturant AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		288C7A3528508A9F004E2960 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28413DDA28535ACD003CF1F9 /* ListView.swift */,
+				28413DD828534D10003CF1F9 /* SummaryView.swift */,
+				288C7A0D28508930004E2960 /* ContentView.swift */,
+				288FF29F2853B0A600F5E9BB /* FoodListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		288C7A3628508AA9004E2960 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		288C7A3728508AB5004E2960 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28413DDC28535AE0003CF1F9 /* ListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		288C7A3828508ABC004E2960 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288C7A0728508930004E2960 /* Anbe Resturant Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288C7A2C28508933004E2960 /* Build configuration list for PBXNativeTarget "Anbe Resturant Assignment" */;
+			buildPhases = (
+				288C7A0428508930004E2960 /* Sources */,
+				288C7A0528508930004E2960 /* Frameworks */,
+				288C7A0628508930004E2960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anbe Resturant Assignment";
+			productName = "Anbe Resturant Assignment";
+			productReference = 288C7A0828508930004E2960 /* Anbe Resturant Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		288C7A1728508933004E2960 /* Anbe Resturant AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288C7A2F28508933004E2960 /* Build configuration list for PBXNativeTarget "Anbe Resturant AssignmentTests" */;
+			buildPhases = (
+				288C7A1428508933004E2960 /* Sources */,
+				288C7A1528508933004E2960 /* Frameworks */,
+				288C7A1628508933004E2960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288C7A1A28508933004E2960 /* PBXTargetDependency */,
+			);
+			name = "Anbe Resturant AssignmentTests";
+			productName = "Anbe Resturant AssignmentTests";
+			productReference = 288C7A1828508933004E2960 /* Anbe Resturant AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		288C7A2128508933004E2960 /* Anbe Resturant AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288C7A3228508933004E2960 /* Build configuration list for PBXNativeTarget "Anbe Resturant AssignmentUITests" */;
+			buildPhases = (
+				288C7A1E28508933004E2960 /* Sources */,
+				288C7A1F28508933004E2960 /* Frameworks */,
+				288C7A2028508933004E2960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				288C7A2428508933004E2960 /* PBXTargetDependency */,
+			);
+			name = "Anbe Resturant AssignmentUITests";
+			productName = "Anbe Resturant AssignmentUITests";
+			productReference = 288C7A2228508933004E2960 /* Anbe Resturant AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288C7A0028508930004E2960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					288C7A0728508930004E2960 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					288C7A1728508933004E2960 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 288C7A0728508930004E2960;
+					};
+					288C7A2128508933004E2960 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 288C7A0728508930004E2960;
+					};
+				};
+			};
+			buildConfigurationList = 288C7A0328508930004E2960 /* Build configuration list for PBXProject "Anbe Resturant Assignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288C79FF28508930004E2960;
+			productRefGroup = 288C7A0928508930004E2960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288C7A0728508930004E2960 /* Anbe Resturant Assignment */,
+				288C7A1728508933004E2960 /* Anbe Resturant AssignmentTests */,
+				288C7A2128508933004E2960 /* Anbe Resturant AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288C7A0628508930004E2960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C7A1328508933004E2960 /* Preview Assets.xcassets in Resources */,
+				288C7A1028508933004E2960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288C7A1628508933004E2960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288C7A2028508933004E2960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288C7A0428508930004E2960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288FF2A02853B0A600F5E9BB /* FoodListView.swift in Sources */,
+				28413DDB28535ACD003CF1F9 /* ListView.swift in Sources */,
+				288C7A0E28508930004E2960 /* ContentView.swift in Sources */,
+				288C7A0C28508930004E2960 /* Anbe_Resturant_AssignmentApp.swift in Sources */,
+				28413DD928534D10003CF1F9 /* SummaryView.swift in Sources */,
+				28413DDD28535AE0003CF1F9 /* ListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288C7A1428508933004E2960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C7A1D28508933004E2960 /* Anbe_Resturant_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		288C7A1E28508933004E2960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288C7A2928508933004E2960 /* Anbe_Resturant_AssignmentUITestsLaunchTests.swift in Sources */,
+				288C7A2728508933004E2960 /* Anbe_Resturant_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		288C7A1A28508933004E2960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288C7A0728508930004E2960 /* Anbe Resturant Assignment */;
+			targetProxy = 288C7A1928508933004E2960 /* PBXContainerItemProxy */;
+		};
+		288C7A2428508933004E2960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288C7A0728508930004E2960 /* Anbe Resturant Assignment */;
+			targetProxy = 288C7A2328508933004E2960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		288C7A2A28508933004E2960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		288C7A2B28508933004E2960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288C7A2D28508933004E2960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Anbe Resturant Assignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laksh-Coder.Anbe-Resturant-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		288C7A2E28508933004E2960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Anbe Resturant Assignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laksh-Coder.Anbe-Resturant-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		288C7A3028508933004E2960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laksh-Coder.Anbe-Resturant-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anbe Resturant Assignment.app/Anbe Resturant Assignment";
+			};
+			name = Debug;
+		};
+		288C7A3128508933004E2960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laksh-Coder.Anbe-Resturant-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anbe Resturant Assignment.app/Anbe Resturant Assignment";
+			};
+			name = Release;
+		};
+		288C7A3328508933004E2960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laksh-Coder.Anbe-Resturant-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Anbe Resturant Assignment";
+			};
+			name = Debug;
+		};
+		288C7A3428508933004E2960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "laksh-Coder.Anbe-Resturant-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Anbe Resturant Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288C7A0328508930004E2960 /* Build configuration list for PBXProject "Anbe Resturant Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288C7A2A28508933004E2960 /* Debug */,
+				288C7A2B28508933004E2960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288C7A2C28508933004E2960 /* Build configuration list for PBXNativeTarget "Anbe Resturant Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288C7A2D28508933004E2960 /* Debug */,
+				288C7A2E28508933004E2960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288C7A2F28508933004E2960 /* Build configuration list for PBXNativeTarget "Anbe Resturant AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288C7A3028508933004E2960 /* Debug */,
+				288C7A3128508933004E2960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288C7A3228508933004E2960 /* Build configuration list for PBXNativeTarget "Anbe Resturant AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288C7A3328508933004E2960 /* Debug */,
+				288C7A3428508933004E2960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288C7A0028508930004E2960 /* Project object */;
+}
